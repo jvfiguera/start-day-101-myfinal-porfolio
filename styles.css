@@ -1,0 +1,60 @@
+#id-container {
+    max-width: 100%;
+}
+
+.div-img-main {
+  border: 1px solid #ccc;
+  width: 550px;
+  height: 641px;
+  background-image: url("/images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 60rem;
+}
+
+.c-img-myphoto{
+position: relative;
+top: 15%;
+left:30%;
+width: 30%;
+height: 30%;
+}
+.c-text-name{
+  position: relative;
+  top: 20%;
+  color: #95a5a6;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Montserrat'
+}
+
+.c-name{
+  color:#256D85;
+  font-family: 'Great Vibes';
+  font-size: 30px;
+}
+
+.dot {
+  height: 25%;
+  width : 25%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.c-ul-contact{
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.c-web-design{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  /* color: #95a5a6; */
+  position: relative;
+  top:  24%;
+  left: 15%;
+}
+.fa-color:hover{
+   color:#6E85B7 !important;
+}
