@@ -54,10 +54,9 @@ height: 30%;
 .c-web-design{
   font-family: 'Montserrat';
   font-size: 14px;
-  /* color: #95a5a6; */
   position: relative;
   top:  24%;
-  left: 15%;
+  left: 10%;
 }
 .fa-color:hover{
    color:#6E85B7 !important;
