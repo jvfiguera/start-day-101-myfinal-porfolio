@@ -138,6 +138,13 @@ height: 30%;
     transition: all .3s ease-out;
 }
 
+.c-knowledge{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight:lighter;
+  text-align: center;
+}
+
 @media screen and (min-width:780px) and (max-width:1024px){
   .col-6 {
     flex: 0 0 auto;
