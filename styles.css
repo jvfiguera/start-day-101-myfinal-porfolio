@@ -80,6 +80,8 @@ height: 30%;
   color:#256D85;
   font-family: 'Great Vibes';
   font-size: 30px;
+  text-align:left;
+
 }
 
 @media screen and (min-width:780px) and (max-width:1024px){
