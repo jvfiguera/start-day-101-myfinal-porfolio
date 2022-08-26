@@ -1,11 +1,15 @@
+body{
+  margin: 0;
+}
+
 #id-container {
     max-width: 100%;
 }
 
 .div-img-main {
   border: 1px solid #ccc;
-  /* width: 550px;
-  height: 641px; */
+  width: 550px;
+  height: 641px;
   background-image: url("./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 65rem;
