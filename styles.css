@@ -14,7 +14,9 @@ overflow-y: hidden;
 
 .div-img-main {
   border: 1px solid #ccc;
-  width: 600px;
+  width: 35%;
+  /* width: 30.53%; */
+  /* width: 400px; */
   height: 641px;
   background-image: url("./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
   background-repeat: no-repeat;
@@ -22,7 +24,8 @@ overflow-y: hidden;
 }
 
 .div-profile-main{
-  /* width: 100%; */
+width: 65%;
+  /* width: 69.45%; */
   height: 641px;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -39,7 +42,7 @@ height: 30%;
   position: relative;
   top: 20%;
   color: #95a5a6;
-  font-size: 20px;
+  font-size: 16px;
   text-align: right;
   font-family: 'Montserrat'
 }
@@ -173,6 +176,12 @@ height: 30%;
     body {
       overflow-y: scroll;
     }
+    .div-img-main {
+      width: 100%;
+    }
+    .div-profile-main{
+      width: 100%;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -183,4 +192,44 @@ height: 30%;
     body {
       overflow-y: scroll;
     }
+    .div-img-main {
+      width: 100%;
+    }
+    .div-profile-main{
+      width: 100%;
+    }
+}
+
+.figure-img{
+  width:  20%;
+  height: 20%;
+}
+
+.card{
+  position: relative;
+  left: 50px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  width: 16rem;
+  height:11rem;
+  background-color: #16697A;
+  border-color: #2C3639;
+  color: #ecf0f1;
+  margin-right: 8px;
+}
+
+.card-title{
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight:lighter;
+  font-weight: bold;
+}
+.card-text{
+  text-align: justify;
+  font-size: 12px;
+}
+.btn{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight:lighter;
 }
