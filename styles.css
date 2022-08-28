@@ -74,15 +74,16 @@ border: outset;
   bottom: 8%;
   background-color: #DAEAF1;
   border: none;
-  height: 100px;
+  height: 50px;
 }
 .c-card-body{
   font-family: 'Oswald';
   color:#256D85;
-  font-size:18px;
+  font-size:12px;
   text-align: center;
   padding: 0;
 }
+
 /* .c-text-name{
   position: relative;
   top: 20%;
@@ -261,6 +262,7 @@ border: outset;
   border-color: #2C3639;
   color: #ecf0f1;
   margin-right: 8px;
+  margin-bottom:10px;
 }
 
 .card-title{
@@ -269,10 +271,20 @@ border: outset;
   font-weight:lighter;
   font-weight: bold;
 }
+/* .c-card-text{
+  text-align: justify;
+  font-size: 12px;
+} */
+
 .c-card-text{
   text-align: justify;
   font-size: 12px;
+  text-decoration: none;
+  color: white ;
+  font-family: 'Montserrat';
+  font-weight:lighter;
 }
+
 .btn{
   font-family: 'Montserrat';
   font-size: 14px;
