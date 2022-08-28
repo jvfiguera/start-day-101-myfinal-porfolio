@@ -7,7 +7,6 @@ overflow-x: hidden;
 overflow-y: hidden;
 }
 
-
 #id-container {
     max-width: 100%;
 }
@@ -38,14 +37,60 @@ left:30%;
 width: 30%;
 height: 30%;
 }
+
+.c-first_name{
+  font-family: 'Oswald';
+  font-size: 30px;
+}
+.c-last-name{
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.c-full-name{
+border: outset;
+}
+
 .c-text-name{
+  position: absolute;
+  top: 130px;
+  right: 78%;
+  text-align: start;
+  width: 250px;
+}
+
+.c-text-profesion{
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  font-family: 'Montserrat'
+  width: 400px;
+  background-color: #1B2430;
+  color: #FFFFFF;
+}
+
+.c-card-name{
+  position: absolute;
+  top: 110px;
+  background-color: #DAEAF1;
+  border: none;
+  height: 100px;
+}
+.c-card-body{
+  font-family: 'Oswald';
+  color:#256D85;
+  font-size:18px;
+  text-align: center;
+  padding: 0;
+}
+/* .c-text-name{
   position: relative;
   top: 20%;
   color: #95a5a6;
   font-size: 16px;
   text-align: right;
   font-family: 'Montserrat'
-}
+} */
 
 .c-name{
   color:#256D85;
@@ -205,7 +250,7 @@ height: 30%;
   height: 20%;
 }
 
-.card{
+.c-card{
   position: relative;
   left: 50px;
   font-family: 'Montserrat';
@@ -224,7 +269,7 @@ height: 30%;
   font-weight:lighter;
   font-weight: bold;
 }
-.card-text{
+.c-card-text{
   text-align: justify;
   font-size: 12px;
 }

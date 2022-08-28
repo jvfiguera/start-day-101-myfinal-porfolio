@@ -9,10 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Montserrat:wght@400;900&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Great+Vibes&family=Lobster&family=Montserrat:wght@400;900&family=Oswald&family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="https://kit.fontawesome.com/908b69d6e2.js" crossorigin="anonymous"></script>
@@ -23,8 +22,17 @@
     <div id="id-container" class="container text-center">
       <div class="row">
         <div class="col-lg-2 div-img-main">
-          <img class="c-img-myphoto dot" src="./images/MyPhoto-3.jpg" alt="c-img-myphoto">
-          <p class="c-text-name"> Hi, my name is <span class="c-name">Jorge Figuera</span>, <br>Oracle DBA, Python Developer & Web Designer </p>
+          <img src="./images/MyPhoto-3.jpg" class="img-thumbnail c-img-myphoto dot" alt="...">
+          <div class="card c-card-name" style="width: 18rem;">
+            <p class="c-full-name"><span class="c-first_name">ING. JORGE </span> <span class="c-last-name">FIGUERA</span></p>
+            <div class="card-body c-card-body">
+              <p class="card-text" style="text-decoration:underline;">Database Administrator</p>
+            </div>
+          </div>
+          <!-- <img class="c-img-myphoto dot" src="./images/MyPhoto-3.jpg" alt="c-img-myphoto"> -->
+          <!-- <p class="c-text-name"><span class="c-first_name" >ING. JORGE </span> <span class="c-last-name">FIGUERA</span></p> -->
+          <!-- <p class="c-text-profesion">Database Administrator</p> -->
+          <!-- <p class="c-text-name"> Hi, my name is <span class="c-name">Jorge Figuera</span>, <br>Oracle DBA, Python Developer & Web Designer </p> -->
           <ul class="c-ul-contact">
             <li class="list-inline-item">
               <a class="btnx" href="https://twitter.com/">
@@ -107,27 +115,27 @@
           <div class="row">
             <h1 class="c-text-GV" ><i class="fa-solid fa-person-digging"></i>Recently Work</h1>
             <br><br>
-            <div class="card">
+            <div class="card c-card">
                 <!-- <img src="images/onlineshop/fashion_online_shop01.png" class="card-img-top" alt="..."> -->
                 <div class="card-body">
                   <h5 class="card-title">Online Shop</h5>
-                  <p class="card-text">Online store focused on the fashion market, you can register, login/logou and manage the shop, It has a car </p>
+                  <p class="card-text c-card-text">Online store focused on the fashion market, you can register, login/logou and manage the shop, It has a car </p>
                   <a href="https://grexy-fashion-shop.herokuapp.com/" class="btn btn-primary" target="_blank">I want to visit it</a>
                 </div>
             </div>
-            <div class="card" style="background-color:#3F4E4F;">
+            <div class="card c-card" style="background-color:#3F4E4F;">
                 <!-- <img src="images/onlineshop/fashion_online_shop01.png" class="card-img-top" alt="..."> -->
                 <div class="card-body" >
                   <h5 class="card-title">Data Science - Space Race</h5>
-                  <p class="card-text">On this web page I show my work as Data Scientist through graphs about space race among top leaders since 1957</p>
+                  <p class="card-text c-card-text">On this web page I show my work as Data Scientist through graphs about space race among top leaders since 1957</p>
                   <a href="https://mywork-as-data-scientist01.herokuapp.com/" class="btn btn-primary" target="_blank">I want to visit it</a>
                 </div>
             </div>
-            <div class="card" style="background-color:#2C3639;">
+            <div class="card c-card" style="background-color:#2C3639;">
                 <!-- <img src="images/onlineshop/fashion_online_shop01.png" class="card-img-top" alt="..."> -->
                 <div class="card-body">
                   <h5 class="card-title">Data Science - Web Page</h5>
-                  <p class="card-text">On this web page I show my work as Data Scientist through graphs about space race among top leaders since 1957</p>
+                  <p class="card-text c-card-text">On this web page I show my work as Data Scientist through graphs about space race among top leaders since 1957</p>
                   <a href="https://mywork-as-data-scientist01.herokuapp.com/" class="btn btn-primary" target="_blank">I want to visit it</a>
                 </div>
             </div>
