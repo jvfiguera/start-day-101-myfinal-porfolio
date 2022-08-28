@@ -32,8 +32,8 @@ width: 65%;
 
 .c-img-myphoto{
 position: relative;
-top: 15%;
-left:30%;
+top: 13%;
+left:35%;
 width: 30%;
 height: 30%;
 }
@@ -70,8 +70,8 @@ border: outset;
 }
 
 .c-card-name{
-  position: absolute;
-  top: 110px;
+  position: relative;
+  bottom: 8%;
   background-color: #DAEAF1;
   border: none;
   height: 100px;
