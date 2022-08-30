@@ -1,0 +1,281 @@
+html,body{
+width: 100%;
+max-height: 635px;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+
+#id-container {
+    max-width: 100%;
+}
+
+.div-img-main {
+  border: 1px solid #ccc;
+  width: 35%;
+  /* width: 30.53%; */
+  /* width: 400px; */
+  height: 641px;
+  background-image: url("./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 60rem; */
+}
+
+.div-profile-main{
+width: 65%;
+  /* width: 69.45%; */
+  height: 641px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.c-img-myphoto{
+position: relative;
+top: 13%;
+left:35%;
+width: 30%;
+height: 30%;
+}
+
+.c-first_name{
+  font-family: 'Oswald';
+  font-size: 30px;
+}
+.c-last-name{
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: #FFFFFF;  
+}
+.c-full-name{
+border: outset;
+}
+
+.c-text-name{
+  position: absolute;
+  top: 130px;
+  right: 78%;
+  text-align: start;
+  width: 250px;
+}
+
+.c-text-profesion{
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  font-family: 'Montserrat'
+  width: 400px;
+  background-color: #1B2430;
+  color: #FFFFFF;
+}
+
+.c-card-name{
+  position: relative;
+  bottom: 8%;
+  background-color: #DAEAF1;
+  border: none;
+  height: 100px;
+}
+.c-card-body{
+  font-family: 'Oswald';
+  color:#256D85;
+  font-size:18px;
+  text-align: center;
+  padding: 0;
+}
+/* .c-text-name{
+  position: relative;
+  top: 20%;
+  color: #95a5a6;
+  font-size: 16px;
+  text-align: right;
+  font-family: 'Montserrat'
+} */
+
+.c-name{
+  color:#256D85;
+  font-family: 'Great Vibes';
+  font-size: 30px;
+}
+
+.dot {
+  height: 25%;
+  width : 25%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.c-ul-contact{
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.c-web-design{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  position: relative;
+  top:  24%;
+  left: 10%;
+}
+.fa-color:hover{
+   color:#6E85B7 !important;
+}
+
+.c-desc-perfil{
+  color: #2C3333;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.c-bold-text{
+  color: #256D85;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.c-text-GV{
+  color:#256D85;
+  font-family: 'Great Vibes';
+  font-size: 30px;
+  text-align:left;
+}
+
+#list-2 {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font: 14px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-align: justify;
+    position: relative;
+    left: 5%;
+}
+#list-2 ol {
+    margin: 0 0 0 2em;
+}
+
+#list-2 li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .1em 0;
+    background: #FFFFFF;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+#list-2 li:hover{
+    background: #eee;
+}
+
+#list-2 li:hover:before{
+    transform: rotate(360deg);
+}
+
+#list-2 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.c-knowledge{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight:lighter;
+  text-align: center;
+}
+
+@media screen and (min-width:780px) and (max-width:1024px){
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:780px){
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    }
+    body {
+      overflow-y: scroll;
+    }
+    .div-img-main {
+      width: 100%;
+    }
+    .div-profile-main{
+      width: 100%;
+    }
+}
+
+@media screen and (max-width:480px){
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    }
+    body {
+      overflow-y: scroll;
+    }
+    .div-img-main {
+      width: 100%;
+    }
+    .div-profile-main{
+      width: 100%;
+    }
+}
+
+.figure-img{
+  width:  20%;
+  height: 20%;
+}
+
+.c-card{
+  position: relative;
+  left: 50px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  width: 16rem;
+  height:11rem;
+  background-color: #16697A;
+  border-color: #2C3639;
+  color: #ecf0f1;
+  margin-right: 8px;
+}
+
+.card-title{
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight:lighter;
+  font-weight: bold;
+}
+.c-card-text{
+  text-align: justify;
+  font-size: 12px;
+}
+.btn{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight:lighter;
+}
