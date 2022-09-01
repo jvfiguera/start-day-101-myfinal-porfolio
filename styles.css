@@ -13,17 +13,17 @@ overflow-y: hidden;
 
 .div-img-main {
   border: 1px solid #ccc;
-  width: 35%;
+  width: 33%;
   /* width: 30.53%; */
   /* width: 400px; */
   height: 641px;
-  background-image: url("./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  background-image: url("images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
   background-repeat: no-repeat;
-  /* background-size: 60rem; */
+  background-size: 65rem;
 }
 
 .div-profile-main{
-width: 65%;
+width: 67%;
   /* width: 69.45%; */
   height: 641px;
   overflow-y: scroll;
@@ -32,8 +32,10 @@ width: 65%;
 
 .c-img-myphoto{
 position: relative;
-top: 13%;
-left:35%;
+/* top: 13%; */
+/* left:35%; */
+top: 9%;
+left: 0%;
 width: 30%;
 height: 30%;
 }
@@ -71,10 +73,16 @@ border: outset;
 
 .c-card-name{
   position: relative;
-  bottom: 8%;
+  /* bottom: 8%; */
+  top: 10%;
+  left: 10%;
   background-color: #DAEAF1;
   border: none;
   height: 50px;
+}
+.card-body{
+  padding-left: 0;
+  padding-right: 0;
 }
 .c-card-body{
   font-family: 'Oswald';
@@ -254,11 +262,11 @@ border: outset;
 .c-card{
   position: relative;
   /* left: 50px; */
-  left: 20px;
+  left: 15px;
   font-family: 'Montserrat';
   font-size: 10px;
   width: 12rem;
-  height:13rem;
+  height:12rem;
   background-color: #16697A;
   border-color: #2C3639;
   color: #ecf0f1;
@@ -304,6 +312,6 @@ border: outset;
 
 .c-text-video{
   font-family: 'Montserrat';
-  font-size: 20px;
+  font-size: 16px;
   font-weight:lighter;
 }
