@@ -108,8 +108,8 @@ border: outset;
 }
 
 .dot {
-  height: 25%;
-  width : 25%;
+  height: 35%;
+  width : 35%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -117,7 +117,7 @@ border: outset;
 
 .c-ul-contact{
   position: relative;
-  top: 25%;
+  top: 20%;
   left: 25%;
 }
 
@@ -314,4 +314,52 @@ border: outset;
   font-family: 'Montserrat';
   font-size: 16px;
   font-weight:lighter;
+  color:#256D85;
+}
+
+.c-text-porfolio{
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color:#256D85;
+}
+
+.mobile-container {
+  margin: auto;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #bdc3c7;
+  position: relative;
+  font-family: 'Montserrat';
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+  background-color: #256D85;
+}
+
+.topnav a:hover {
+  background-color: #ecf0f1;
+  color: black;
+}
+
+.active {
+  background-color: #256D85;
+  color: white;
 }
