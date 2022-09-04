@@ -223,12 +223,12 @@ border: outset;
   .c-card{
     width: 12rem;
   }
-        .div-img-main {
-          width: 33%;
-        }
-        .div-profile-main{
-          width: 67%;
-        }
+  .div-img-main {
+      width: 33%;
+  }
+  .div-profile-main{
+      width: 67%;
+  }
 }
 
 @media screen and (min-width:480px) and (max-width:780px){
@@ -248,7 +248,6 @@ border: outset;
     .c-card{
         width: 20rem;
         }
-
 }
 
 @media screen and (max-width:480px){
