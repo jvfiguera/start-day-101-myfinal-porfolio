@@ -215,14 +215,14 @@ border: outset;
   text-align: center;
 }
 
-@media screen and (min-width:780px) and (max-width:1300px){
+@media screen and (min-width:780px) and (max-width:1350px){
   .col-6 {
     flex: 0 0 auto;
     width: 65%;
     }
-    .c-card{
-        width: 12rem;
-        }
+  .c-card{
+    width: 12rem;
+  }
         .div-img-main {
           width: 33%;
         }
@@ -277,7 +277,7 @@ border: outset;
 
 .c-card{
   position: relative;
-  left: 15px;
+  left: 35px;
   font-family: 'Montserrat';
   font-size: 10px;
   /* width: 12rem; */
